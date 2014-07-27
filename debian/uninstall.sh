@@ -9,7 +9,7 @@ echo "done !"
 
 echo; echo; echo -n "Deleting cronjob....."
 if [ -d '/etc/cron.d/nmd' ]; then
-	rm -f /etc/cron.d/nmd
+	rm -f /etc/cron.d/nmd.cron
 	echo -n ".."
 fi
 echo "done !"
