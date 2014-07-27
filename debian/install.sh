@@ -3,7 +3,9 @@ if [ -d '/usr/local/nmd' ]; then
 	echo; echo; echo "Please un-install the previous version first"
 	exit 0
 else
-	mkdir /usr/local/nmd
+	mkdir /usr/local/conf.d
+	mkdir /usr/local/scripts
+	mkdir /usr/local/white-list
 fi
 clear
 echo; echo 'Installing No More DDOS 1.0 for Debian'; echo
