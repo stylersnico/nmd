@@ -77,6 +77,3 @@ echo; echo 'Use /usr/local/nmd/nmd to configure No More DDOS'
 echo 'Config file is at /usr/local/nmd/conf.d/agent.conf'
 echo '/usr/local/nmd/white-list/white.list'
 echo 'Please send in your comments and/or suggestions to contact@nicolas-simond.com'
-
-echo 'Launching the No More DDOS agent ...';sleep 5
-/usr/local/nmd/nmd
