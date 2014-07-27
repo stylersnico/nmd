@@ -11,9 +11,13 @@ For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 Tested On
 =========
 
--> Debian 6
+-> Debian 6 "Squeeze"
 
--> Debian 7
+-> Debian 7 "Wheezy"
+
+-> Debian 8 "Jessie" Testing
+
+-> Ubuntu 13.10 Server
 
 -> Ubuntu 14.04 Server
 
