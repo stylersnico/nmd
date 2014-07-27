@@ -22,7 +22,7 @@ Tested On
 Installation
 ============
 
-wget -O- ***In progress*** | sh
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/install.sh | sh
 
 
 
@@ -35,7 +35,9 @@ wget -O- ***In progress*** | sh
 White List
 ==========
 
-New White list system, more info soon ...
+New White list system, use No More DDOS directly to add a white-listed ip
+
+-> /usr/local/nmd/nmd  -->  "Add an IP in the White List" option
 
 
 
