@@ -29,7 +29,7 @@ wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/install
 Uninstallation
 ==============
 
-wget -O- ***In progress*** | sh
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/uninstall.sh | sh
 
 
 White List
