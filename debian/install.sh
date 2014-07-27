@@ -53,6 +53,7 @@ chmod 0755 /usr/local/nmd/white-list/white-list.sh
 
 wget -q -O /usr/local/nmd/white-list/white.list https://raw.githubusercontent.com/stylersnico/nmd/master/debian/white-list/white.list
 echo -n '.'
+chmod 0755 /usr/local/nmd/white-list/white.list
 
 #Installing base system
 echo; echo -n 'Downloading base system...'
