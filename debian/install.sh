@@ -4,15 +4,13 @@ if [ -d '/usr/local/nmd' ]; then
 	exit 0
 else
 	mkdir /usr/local/nmd
-	mkdir /usr/local/nmd/conf.d
-	mkdir /usr/local/nmd/scripts
-	mkdir /usr/local/nmd/white-list
 fi
 clear
 echo; echo 'Installing No More DDOS 1.0 for Debian'; echo
 
 #Config Files
 echo; echo -n 'Downloading config files...'
+mkdir /usr/local/nmd/conf.d
 wget -q -O /usr/local/nmd/conf.d/agent.conf https://raw.githubusercontent.com/stylersnico/nmd/master/debian/conf.d/agent.conf
 echo -n '.'
 
@@ -21,6 +19,7 @@ echo -n '.'
 
 #Scripts Files
 echo; echo -n 'Downloading scripts files...'
+mkdir /usr/local/nmd/scripts
 wget -q -O /usr/local/nmd/scripts/ban.sh https://raw.githubusercontent.com/stylersnico/nmd/master/debian/scripts/ban.sh
 echo -n '.'
 chmod 0755 /usr/local/nmd/scripts/ban.sh
@@ -47,6 +46,7 @@ chmod 0755 /usr/local/nmd/scripts/unban.sh
 
 #White-list system
 echo; echo -n 'Downloading white-list system...'
+mkdir /usr/local/nmd/white-list
 wget -q -O /usr/local/nmd/white-list/white-list.sh https://raw.githubusercontent.com/stylersnico/nmd/master/debian/white-list/white-list.sh
 echo -n '.'
 chmod 0755 /usr/local/nmd/white-list/white-list.sh
