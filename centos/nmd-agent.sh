@@ -125,7 +125,7 @@ while [ $1 ]; do
 	shift
 done
 
-TMP_PREFIX='/tmp/nmd'
+TMP_PREFIX='/tmp/unban'
 TMP_FILE="mktemp $TMP_PREFIX.XXXXXXXX"
 BANNED_IP_MAIL=`$TMP_FILE`
 BANNED_IP_LIST=`$TMP_FILE`
