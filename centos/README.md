@@ -3,7 +3,7 @@ No More DDOS for Debian
 
 A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
 
-Fully loaded for Debian 7 and derived distro
+Fully loaded for CentOS 7 and derived distro
 
 For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 
@@ -11,29 +11,23 @@ For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 Tested On
 =========
 
--> Debian 6 "Squeeze"
+-> CentOs 6
 
--> Debian 7 "Wheezy"
-
--> Debian 8 "Jessie" Testing
-
--> Ubuntu 13.10 Server
-
--> Ubuntu 14.04 Server
+-> CentOs 7
 
 
 
 Installation
 ============
 
-wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/install.sh | sh
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/install.sh | sh
 
 
 
 Uninstallation
 ==============
 
-wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/uninstall.sh | sh
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/uninstall.sh | sh
 
 
 White List
