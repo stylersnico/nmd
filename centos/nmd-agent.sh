@@ -140,7 +140,7 @@ WHITE_LIST=/usr/local/nmd/white-list/white.list
 date -u
 echo 'Connections | IP'
 echo 
-netstat -ntu -4 -6 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
+netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
 cat $BAD_IP_LIST
 echo
 echo
