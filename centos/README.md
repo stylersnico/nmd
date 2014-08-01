@@ -20,9 +20,10 @@ Tested On
 Installation
 ============
 
+You NEED to install Netstat command on CentOs 7 -> yum install net-tools
+
 wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/install.sh | sh
 
-You NEED to install Netstat command on CentOs 7 -> yum install net-tools
 
 
 
