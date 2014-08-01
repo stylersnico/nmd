@@ -1,4 +1,4 @@
-No More DDOS for Debian
+No More DDOS for CentOS
 =======================
 
 A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
@@ -21,6 +21,8 @@ Installation
 ============
 
 wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/install.sh | sh
+
+You NEED to install Netstat command on CentOs 7 -> yum install net-tools
 
 
 
