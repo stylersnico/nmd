@@ -10,7 +10,7 @@ echo; echo 'Installing No More DDOS 1.0 for CentOS 7'; echo
 
 #Dependency
 echo; echo -n 'Downloading Dependency...'
-yum -y install net-snmp
+yum -y install net-tools
 echo -n '.'
 
 #Config Files
