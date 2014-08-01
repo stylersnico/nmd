@@ -1,5 +1,5 @@
-No More DDOS for CentOS
-=======================
+No More DDOS for CentOS 7
+=========================
 
 A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
 
