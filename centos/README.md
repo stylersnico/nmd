@@ -11,7 +11,6 @@ For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 Tested On
 =========
 
--> CentOs 6
 
 -> CentOs 7
 
@@ -20,7 +19,6 @@ Tested On
 Installation
 ============
 
-You NEED to install Netstat command on CentOs 7 -> yum install net-tools
 
 wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/install.sh | sh
 
