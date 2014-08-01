@@ -1,1 +1,1 @@
-grep -v -e server -e Address -e 127.0.0.1 -e 0.0.0.0 -e 92.222.160.96 -e 37.187.58.178 -e 185.13.39.218
+grep -v -e server -e Address -e 127.0.0.1 -e 0.0.0.0
