@@ -32,7 +32,7 @@ wget -q -O /usr/local/nmd/scripts/error.sh https://raw.githubusercontent.com/sty
 echo -n '.'
 chmod 0755 /usr/local/nmd/scripts/error.sh
 
-wget -q -O /usr/local/nmd/scripts/reset-log.sh https://raw.githubusercontent.com/stylersnico/nmd/masterdebian/scripts/reset-log.sh
+wget -q -O /usr/local/nmd/scripts/reset-log.sh https://raw.githubusercontent.com/stylersnico/nmd/master/debian/scripts/reset-log.sh
 echo -n '.'
 chmod 0755 /usr/local/nmd/scripts/reset-log.sh
 
