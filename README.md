@@ -8,6 +8,14 @@ No More DDOS is the new DDOS protection system for the major GNU/Linux operating
 No More DDOS is based on DDOS Deflate by Zaf.
 
 
+Websites
+===============
+
+Official home -> http://www.no-more-ddos.info/
+Author's home -> http://www.nicolas-simond.com/
+Author's blog -> http://www.abyssproject.net/
+
+
 Current Version
 ===============
 
