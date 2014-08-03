@@ -21,6 +21,8 @@ Tested On
 
 -> Ubuntu 14.04 Server
 
+-> Linux Mint 17 (You need "mailutils" package)
+
 
 
 Installation

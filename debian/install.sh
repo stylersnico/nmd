@@ -6,7 +6,7 @@ else
 	mkdir /usr/local/nmd
 fi
 clear
-echo; echo 'Installing No More DDOS 1.0 for Debian'; echo
+echo; echo 'Installing No More DDOS 1.1 for Debian'; echo
 
 #Config Files
 echo; echo -n 'Downloading config files...'
