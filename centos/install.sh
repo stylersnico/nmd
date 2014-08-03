@@ -6,7 +6,7 @@ else
 	mkdir /usr/local/nmd
 fi
 clear
-echo; echo 'Installing No More DDOS 1.0 for CentOS 7'; echo
+echo; echo 'Installing No More DDOS 1.1 for CentOS 7'; echo
 
 #Dependency
 echo; echo -n 'Downloading Dependency...'
