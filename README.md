@@ -21,7 +21,7 @@ Author's blog -> http://www.abyssproject.net/
 Current Version
 ===============
 
--> 1.0
+-> 1.1
 
 
 Available for
