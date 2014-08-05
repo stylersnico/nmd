@@ -8,10 +8,6 @@ fi
 clear
 echo; echo 'Installing No More DDOS 1.1 for CentOS 7'; echo
 
-#Dependency
-echo; echo -n 'Downloading Dependency...'
-yum -y install net-tools
-echo -n '.'
 
 #Config Files
 echo; echo -n 'Downloading config files...'
