@@ -21,6 +21,7 @@ echo -n '.'
 
 wget -q -O /usr/local/nmd/conf.d/ignore.ip.list https://raw.githubusercontent.com/stylersnico/nmd/master/centos/conf.d/ignore.ip.list
 echo -n '.'
+chmod 0755 /usr/local/nmd/conf.d/ignore.ip.list
 
 #Scripts Files
 echo; echo -n 'Downloading scripts files...'
