@@ -4,7 +4,6 @@ echo; echo 'Updating No More DDOS for Debian'; echo
 
 #Config Files
 echo; echo -n 'Downloading new config files...'
-mkdir /usr/local/nmd/conf.d
 wget -q -O /usr/local/nmd/conf.d/agent.conf https://raw.githubusercontent.com/stylersnico/nmd/master/debian/conf.d/agent.conf
 echo -n '.'
 wget -q -O /usr/local/nmd/conf.d/ignore.ip.list https://raw.githubusercontent.com/stylersnico/nmd/master/debian/conf.d/ignore.ip.list
