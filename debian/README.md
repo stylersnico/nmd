@@ -38,6 +38,15 @@ Uninstallation
 wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/uninstall.sh | sh
 
 
+
+
+Update
+======
+
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/debian/update.sh | sh
+
+
+
 White List
 ==========
 
