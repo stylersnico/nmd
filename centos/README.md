@@ -31,6 +31,15 @@ Uninstallation
 wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/uninstall.sh | sh
 
 
+
+
+Update
+======
+
+wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/centos/update.sh | sh
+
+
+
 White List
 ==========
 
