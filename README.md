@@ -21,17 +21,25 @@ Author's blog -> http://www.abyssproject.net/
 Current Version
 ===============
 
--> 1.2
+-> 1.3
+
+
+
+Next major version
+==================
+
+-> 2.0 with better AFP integration & Latest Fedora support
+
 
 
 Available for
 =============
 
--> Debian / Ubuntu
+-> Debian / Ubuntu / Linux Mint
 
 https://github.com/stylersnico/nmd/tree/master/debian
 
--> CentOs 7
+-> CentOs 6 / 7
 
 https://github.com/stylersnico/nmd/tree/master/centos
 

@@ -11,9 +11,15 @@ For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 Tested On
 =========
 
+-> CentOs 6 (Experimental)
 
 -> CentOs 7
 
+
+Next major version
+==================
+
+-> 2.0 with better AFP integration & Latest Fedora support
 
 
 Installation

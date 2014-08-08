@@ -24,6 +24,11 @@ Tested On
 -> Linux Mint 17 (You need "mailutils" package)
 
 
+Next major version
+==================
+
+-> 2.0 with better AFP integration
+
 
 Installation
 ============
