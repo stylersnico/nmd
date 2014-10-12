@@ -11,7 +11,7 @@ No More DDOS is based on DDOS Deflate by Zaf.
 Websites
 ===============
 
-Official home -> http://www.no-more-ddos.info/nmd
+Official home -> http://www.no-more-ddos.info/
 
 Author's home -> http://www.nicolas-simond.com/
 
