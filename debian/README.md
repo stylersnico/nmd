@@ -27,7 +27,8 @@ Tested On
 Next major version
 ==================
 
--> 2.0 with better AFP integration
+-> 2015v1
+Correction of all the reported problems
 
 
 Installation
