@@ -11,11 +11,11 @@ No More DDOS is based on DDOS Deflate by Zaf.
 Websites
 ===============
 
-Official home -> http://www.no-more-ddos.info/
+Official home -> https://www.no-more-ddos.info/
 
-Author's home -> http://www.nicolas-simond.com/
+Author's home -> https://www.nicolas-simond.com/
 
-Author's blog -> http://www.abyssproject.net/
+Author's blog -> https://www.abyssproject.net/
 
 
 Current Version
@@ -28,18 +28,19 @@ Current Version
 Next major version
 ==================
 
--> 2.0 with better AFP integration & Latest Fedora and RHEL support
+-> 2015v1
+Correction of all the reported problems
 
 
 
 Available for
 =============
 
--> Debian / Ubuntu / Linux Mint
+-> Debian / Ubuntu
 
 https://github.com/stylersnico/nmd/tree/master/debian
 
--> CentOs 6 / 7
+-> RHEL & CentOs 6 / 7
 
 https://github.com/stylersnico/nmd/tree/master/centos
 
