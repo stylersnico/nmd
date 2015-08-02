@@ -5,7 +5,7 @@ A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
 
 Fully loaded for CentOS 7 and derived distro
 
-For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
+For any question : https://www.nicolas-simond.com/ | contact@nicolas-simond.com
 
 
 Tested On
@@ -19,7 +19,8 @@ Tested On
 Next major version
 ==================
 
--> 2.0 with better AFP integration & Latest Fedora and RHEL support
+-> 2015v1
+Correction of all the reported problems
 
 
 Installation
