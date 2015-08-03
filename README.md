@@ -21,15 +21,16 @@ Author's blog -> https://www.abyssproject.net/
 Current Version
 ===============
 
--> 1.3
+-> 2015v2
 
 
 
 Next major version
 ==================
 
--> 2015v1
-Correction of all the reported problems
+-> 2015v2
+More features to come
+
 
 
 
@@ -40,7 +41,7 @@ Available for
 
 https://github.com/stylersnico/nmd/tree/master/debian
 
--> RHEL & CentOs 6 / 7
+-> CentOs 7
 
 https://github.com/stylersnico/nmd/tree/master/centos
 
