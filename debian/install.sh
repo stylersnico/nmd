@@ -1,12 +1,12 @@
 #!/bin/bash
 if [ -d '/usr/local/nmd' ]; then
-	echo; echo; echo "Please un-install the previous version first"
+	echo; echo; echo "Please un-install the previous version first or use the update system"
 	exit 0
 else
 	mkdir /usr/local/nmd
 fi
 clear
-echo; echo 'Installing No More DDOS 1.3 for Debian'; echo
+echo; echo 'Installing No More DDOS 2015v1 for Debian'; echo
 
 #Config Files
 echo; echo -n 'Downloading config files...'

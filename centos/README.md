@@ -11,7 +11,6 @@ For any question : https://www.nicolas-simond.com/ | contact@nicolas-simond.com
 Tested On
 =========
 
--> CentOs 6 (Experimental)
 
 -> CentOs 7
 
@@ -19,8 +18,8 @@ Tested On
 Next major version
 ==================
 
--> 2015v1
-Correction of all the reported problems
+-> 2015v2
+More features to come
 
 
 Installation

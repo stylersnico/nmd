@@ -12,6 +12,11 @@ if [ -d '/etc/cron.d/nmd' ]; then
 	rm -f /etc/cron.d/nmd.cron
 	echo -n ".."
 fi
+echo; echo; echo -n "Deleting log....."
+if [ -d '/var/log/nmd-agent.log' ]; then
+	rm -f /var/log/nmd-agent.log
+	echo -n ".."
+fi
 echo "done !"
 
 echo; echo "Uninstall Complete"; echo

@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo; echo 'Updating No More DDOS for Debian'; echo
+echo; echo 'Updating No More DDOS for Debian to 2015v1 Release'; echo
 
 #Config Files
 echo; echo -n 'Downloading new config files...'

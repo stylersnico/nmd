@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo; echo 'Updating No More DDOS for CentOS 7'; echo
+echo; echo 'Updating No More DDOS for CentOS 7 to release 2015v1'; echo
 
 #Config Files
 echo; echo -n 'Downloading new config files...'

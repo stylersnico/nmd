@@ -86,12 +86,14 @@ add_to_cron()
 	service cron restart
 	sleep 1
 	if [ $FREQ -le 2 ]; then
-		echo "0-59/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log" >> $CRON
+		echo "0-59/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log 2>&1" >> $CRON
+		echo "0 0 */$FREQLOG * 0 echo "" > /var/log/nmd-agent.log 2>&1" >> $CRON
 	else
 		let "START_MINUTE = $RANDOM % ($FREQ - 1)"
 		let "START_MINUTE = $START_MINUTE + 1"
 		let "END_MINUTE = 60 - $FREQ + $START_MINUTE"
-		echo "$START_MINUTE-$END_MINUTE/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log" >> $CRON
+		echo "$START_MINUTE-$END_MINUTE/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log 2>&1" >> $CRON
+		echo "0 0 */$FREQLOG * 0 echo "" > /var/log/nmd-agent.log 2>&1" >> $CRON
 	fi
 	service cron restart
 	echo

@@ -3,32 +3,28 @@ No More DDOS for Debian
 
 A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
 
-Fully loaded for Debian 7 and derived distro
+Fully loaded for Debian 8 and derived distro
 
-For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
+For any question : https://www.nicolas-simond.com/ | contact@nicolas-simond.com
 
 
 Tested On
 =========
 
--> Debian 6 "Squeeze"
+-> Debian 7
 
--> Debian 7 "Wheezy"
+-> Debian 8
 
--> Debian 8 "Jessie" Testing
+-> Ubuntu 14.04
 
--> Ubuntu 13.10 Server
-
--> Ubuntu 14.04 Server
-
--> Linux Mint 17 (You need "mailutils" package)
+-> Ubuntu 15.04
 
 
 Next major version
 ==================
 
--> 2015v1
-Correction of all the reported problems
+-> 2015v2
+More features to come.
 
 
 Installation

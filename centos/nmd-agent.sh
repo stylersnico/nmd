@@ -86,12 +86,14 @@ add_to_cron()
 	service crond restart
 	sleep 1
 	if [ $FREQ -le 2 ]; then
-		echo "0-59/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log" >> $CRON
+		echo "0-59/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log 2>&1" >> $CRON
+		echo "0 0 */$FREQLOG * 0 echo "" > /var/log/nmd-agent.log 2>&1" >> $CRON
 	else
 		let "START_MINUTE = $RANDOM % ($FREQ - 1)"
 		let "START_MINUTE = $START_MINUTE + 1"
 		let "END_MINUTE = 60 - $FREQ + $START_MINUTE"
-		echo "$START_MINUTE-$END_MINUTE/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log" >> $CRON
+		echo "$START_MINUTE-$END_MINUTE/$FREQ * * * * root /usr/local/nmd/nmd-agent.sh >> /var/log/nmd-agent.log 2>&1" >> $CRON
+		echo "0 0 */$FREQLOG * 0 echo "" > /var/log/nmd-agent.log 2>&1" >> $CRON
 	fi
 	service crond restart
 	echo
@@ -140,7 +142,7 @@ WHITE_LIST=/usr/local/nmd/white-list/white.list
 date -u
 echo 'Connections | IP'
 echo 
-ss -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
+/usr/sbin/ss -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
 cat $BAD_IP_LIST
 echo
 echo
