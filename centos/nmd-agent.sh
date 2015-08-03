@@ -142,7 +142,8 @@ WHITE_LIST=/usr/local/nmd/white-list/white.list
 date -u
 echo 'Connections | IP'
 echo 
-/usr/sbin/ss -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
+/usr/sbin/ss -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr | $WHITE_LIST > $BAD_IP_LIST
+ss -ntu4 | grep ':' | awk '{print $6}' | cut -f1 -d ':' | sort | uniq -c | sort -nr
 cat $BAD_IP_LIST
 echo
 echo
