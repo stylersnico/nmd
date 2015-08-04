@@ -45,6 +45,11 @@ https://github.com/stylersnico/nmd/tree/master/debian
 
 https://github.com/stylersnico/nmd/tree/master/centos
 
+-> FreeBSD 10
+
+https://github.com/stylersnico/nmd/tree/master/freebsd
+
+
 
 If you like my work pay me a beer :)
 ====================================

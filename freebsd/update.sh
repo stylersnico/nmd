@@ -1,23 +1,23 @@
 #!/bin/bash
 clear
-echo; echo 'Updating No More DDOS for Debian to 2015v1 Release'; echo
+echo; echo 'Updating No More DDOS for freebsd to 2015v1 Release'; echo
 
 #Config Files
 echo; echo -n 'Downloading new config files...'
-wget --no-check-certificate -q -O /usr/local/nmd/conf.d/agent.conf https://raw.githubusercontent.com/stylersnico/nmd/master/debian/conf.d/agent.conf
+wget --no-check-certificate -q -O /usr/local/nmd/conf.d/agent.conf https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/conf.d/agent.conf
 echo -n '.'
-wget --no-check-certificate -q -O /usr/local/nmd/conf.d/ignore.ip.list https://raw.githubusercontent.com/stylersnico/nmd/master/debian/conf.d/ignore.ip.list
+wget --no-check-certificate -q -O /usr/local/nmd/conf.d/ignore.ip.list https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/conf.d/ignore.ip.list
 echo -n '.'
 chmod 0755 /usr/local/nmd/conf.d/ignore.ip.list
 
 
 #Base system
 echo; echo -n 'Downloading new base system...'
-wget --no-check-certificate -q -O /usr/local/nmd/nmd-agent.sh https://raw.githubusercontent.com/stylersnico/nmd/master/debian/nmd-agent.sh
+wget --no-check-certificate -q -O /usr/local/nmd/nmd-agent.sh https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/nmd-agent.sh
 echo -n '.'
 chmod 0755 /usr/local/nmd/nmd-agent.sh
 
-wget --no-check-certificate -q -O /usr/local/nmd/LICENSE https://raw.githubusercontent.com/stylersnico/nmd/master/debian/LICENSE
+wget --no-check-certificate -q -O /usr/local/nmd/LICENSE https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/LICENSE
 echo -n '.'
 
 echo '...done'
