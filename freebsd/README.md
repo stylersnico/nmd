@@ -1,5 +1,5 @@
-No More DDOS for Debian
-=======================
+No More DDOS for FreeBSD
+========================
 
 A fork of the original DDOS Deflate Project -> http://deflate.medialayer.com/
 
