@@ -7,6 +7,12 @@ Fully loaded for FreeBSD 10
 
 For any question : https://www.nicolas-simond.com/ | contact@nicolas-simond.com
 
+Warning
+=======
+
+NMD for freebsd is a work in progress.
+Please help by reporting bugs and giving ideas.
+
 
 Requirements
 ============
