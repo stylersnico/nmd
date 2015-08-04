@@ -32,14 +32,14 @@ More features to come.
 Installation
 ============
 
-wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/install.sh | sh
+wget --no-check-certificate -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/install.sh | sh
 
 
 
 Uninstallation
 ==============
 
-wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/uninstall.sh | sh
+wget --no-check-certificate -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/uninstall.sh | sh
 
 
 
@@ -47,7 +47,7 @@ wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/uninst
 Update
 ======
 
-wget -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/update.sh | sh
+wget --no-check-certificate -O- https://raw.githubusercontent.com/stylersnico/nmd/master/freebsd/update.sh | sh
 
 
 
