@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/nicolassimond
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.no-more-ddos.info
+  * I am nicolassimond (https://keybase.io/nicolassimond) on keybase.
+  * I have a public key ASDcNH4kRlQZA6gzyE7FhnzFfake5aYAT0Cf1tU0M_GD5go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120dc347e2446541903a833c84ec5867cc57da91ee5a6004f409fd6d53433f183e60a",
+            "host": "keybase.io",
+            "kid": "0120dc347e2446541903a833c84ec5867cc57da91ee5a6004f409fd6d53433f183e60a",
+            "uid": "c85520bed8d599a82504ad41eab7ad19",
+            "username": "nicolassimond"
+        },
+        "service": {
+            "hostname": "www.no-more-ddos.info",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1453650397,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1453650378,
+        "hash": "92459cef13ac6c2939580031e8fae749fd09c20bb35ba6d064668801148d74b8951faa6dc623350c83cf7bb8c23daa059667a2d1ed057274cc31d141e05b8165",
+        "seqno": 354592
+    },
+    "prev": "aadd618bf791e71e42171efaa48a407620130239ab0cb24dcb4bc6470c82daf5",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3DR+JEZUGQOoM8hOxYZ8xX2pHuWmAE9An9bVNDPxg+YKp3BheWxvYWTFAwJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZGMzNDdlMjQ0NjU0MTkwM2E4MzNjODRlYzU4NjdjYzU3ZGE5MWVlNWE2MDA0ZjQwOWZkNmQ1MzQzM2YxODNlNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZGMzNDdlMjQ0NjU0MTkwM2E4MzNjODRlYzU4NjdjYzU3ZGE5MWVlNWE2MDA0ZjQwOWZkNmQ1MzQzM2YxODNlNjBhIiwidWlkIjoiYzg1NTIwYmVkOGQ1OTlhODI1MDRhZDQxZWFiN2FkMTkiLCJ1c2VybmFtZSI6Im5pY29sYXNzaW1vbmQifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5uby1tb3JlLWRkb3MuaW5mbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjgifSwiY3RpbWUiOjE0NTM2NTAzOTcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1MzY1MDM3OCwiaGFzaCI6IjkyNDU5Y2VmMTNhYzZjMjkzOTU4MDAzMWU4ZmFlNzQ5ZmQwOWMyMGJiMzViYTZkMDY0NjY4ODAxMTQ4ZDc0Yjg5NTFmYWE2ZGM2MjMzNTBjODNjZjdiYjhjMjNkYWEwNTk2NjdhMmQxZWQwNTcyNzRjYzMxZDE0MWUwNWI4MTY1Iiwic2Vxbm8iOjM1NDU5Mn0sInByZXYiOiJhYWRkNjE4YmY3OTFlNzFlNDIxNzFlZmFhNDhhNDA3NjIwMTMwMjM5YWIwY2IyNGRjYjRiYzY0NzBjODJkYWY1Iiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEp9Xue0B3/mHQFAkKT8ZkjbYu+QiR7LTdqbk+SD7rDfj6nmnqn5LJGjLjY92qSv0DJM4h9hntDHoYXi+qoxrQ2oc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicolassimond
+
+==================================================================

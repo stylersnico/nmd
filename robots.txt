@@ -1,0 +1,25 @@
+User-agent: *
+# On empêche l'indexation des dossiers sensibles
+Disallow: /cgi-bin
+Disallow: /wp-login.php
+Disallow: /wp-admin
+Disallow: */trackback
+Disallow: */feed
+Disallow: */comments
+# On empêche l'indexation des fichiers sensibles
+User-agent: Googlebot
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+Disallow: /*.swf$
+Disallow: /*.wmv$
+Disallow: /*.cgi$
+Disallow: /*.xhtml$
+# Autoriser Google Image
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+# Autoriser Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /*
